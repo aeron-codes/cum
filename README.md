@@ -3,6 +3,7 @@ This is incredibly dumb lol
 
 
 # How to run
+Download package or
 
 ``` bash
 npm i
