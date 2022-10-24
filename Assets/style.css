@@ -1,0 +1,55 @@
+.spinner {
+    animation: spinner 1000s infinite;
+}
+
+.rainbowcum {
+    animation: rainbowcum 2s infinite;
+}
+
+div {
+    width: fit-content;
+}
+
+h1 {
+    font-size: 200px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@keyframes spinner {
+    100% {
+        transform: rotate(10000000deg);
+    }
+}
+
+@keyframes rainbowcum {
+    10% {
+        color: #ff0000;
+    }
+    20% {
+        color: #ff5000;
+    }
+    30% {
+        color: #ff0;
+    }
+    40% {
+        color: #0f0;
+    }
+    50% {
+        color: #0ff;
+    }
+    60% {
+        color: #00f;
+    }
+    70% {
+        color: #b700ff;
+    }
+    80% {
+        color: #ea00ff;
+    }
+    90% {
+        color: #ff00aa;
+    }
+    100% {
+        color: rgb(255, 0, 85)
+    }
+}
